@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web multimedia</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<style>
+    .jumbotron {
+        background-image: url("bg.jpg");
+        background-size: cover;
+        color: white;
+        height: 255px;
+    }
+
+    .nav {
+        font-size: 30px;
+     
+    }
+
+    hr {
+        border: 1px solid rgb(134, 134, 134);
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .card{
+      padding-left: 15px;
+    }
+
+   
+
+   
+</style>
+
+<body>
+
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+          Fino Player
+        </a>
+      </nav>
+
+    <div class="jumbotron jumbotron-fluid shadow-lg ">
+        <div class="container">
+            <h1 class="display-4">Movie Player</h1>
+            <p class="lead"></p>
+        </div>
+    </div>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link active" href="video.html">Video</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-body" href="audio.html">Audio</a>
+        </li>
+    </ul>
+    <hr>
+    <div class="container">
+       
+        <div class="card-group mt-5 mb-5">
+            <div class="card">
+                <video width="370px" controls>
+                    <source src="video/Belajar PHP untuk PEMULA - 1. Intro.mp4" type="video/mp4">
+                </video>
+                <div class="card-body">
+                    <h5 class="card-title">Belajar PHP untuk PEMULA - 1. Intro</h5>
+                </div>
+            </div>
+            <div class="card">
+                <video width="370px" controls>
+                    <source src="video/Belajar PHP untuk PEMULA - 2. SEJARAH & KARAKTERISTIK PHP.mp4" type="video/mp4">
+                </video>
+                <div class="card-body">
+                    <h5 class="card-title">Belajar PHP untuk PEMULA - 2. SEJARAH & KARAKTERISTIK PHP</h5>
+                </div>
+            </div>
+            <div class="card">
+                <video width="355px" controls>
+                    <source src="video/Menambahkan NAVIGASI pada LIGHTBOX.mp4" type="video/mp4" class="telegram">
+                </video>
+                <div class="card-body">
+                    <h5 class="card-title">Menambahkan NAVIGASI pada LIGHTBOX</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+</body>
+
+</html>
